@@ -54,9 +54,9 @@ When We are in a directory and we want to start working with GIT, the first comm
 ### Labeling
 
 ### undo Things :
-  - [Checkout]() : goes to a specific commit in read-only mode without changing anything.
-  - [Revert]() : goes to a specific commit and removes it from the tree as it had never been existed.
-  - [Reset]() : goes to a specific commit and deletes all the commits from that commit till the current commit.
+  - [Checkout](https://github.com/hosseindehghanipour1998/Git-Tutorial#checkout) : goes to a specific commit in read-only mode without changing anything.
+  - [Revert](https://github.com/hosseindehghanipour1998/Git-Tutorial#revert) : goes to a specific commit and removes it from the tree as it had never been existed.
+  - [Reset](https://github.com/hosseindehghanipour1998/Git-Tutorial#reset) : goes to a specific commit and deletes all the commits from that commit till the current commit.
 
 
 ##### Checkout
