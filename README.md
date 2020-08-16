@@ -78,3 +78,7 @@ When We are in a directory and we want to start working with GIT, the first comm
 2.  Get the hash of the commit you want to travel to.
 3.  `git reset <commit hash> --hard`
   *  Now there is no way to retain or revert the codes and files you had made after that specific commit.
+
+
+### Change Git Editor
+`git config --global core.editor "nano" `
