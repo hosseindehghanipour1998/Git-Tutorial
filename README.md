@@ -3,11 +3,15 @@
 Here I upload anything I learn from Git.
 With Regards,
 Hossein Dehghanipour.
-## Tutorial
+## Cheat Sheet
+
+<hr/>
 
 ### Install git
 `sudo apt-get install git`
 or simply download git Desktop application from [here](https://desktop.github.com/)
+
+<hr/>
 
 ### Starting a git repository
 When We are in a directory and we want to start working with GIT, the first command is :`
@@ -51,7 +55,12 @@ When We are in a directory and we want to start working with GIT, the first comm
     -  we can insert the copied URL into the terminal by pushing ___“ ctrl + insert “___.
   18. `$ git remote –v` -> shows us all the available remotes in the project.
 
+<hr/>
+
 ### Labeling
+
+
+<hr/>
 
 ### undo Things :
   - [Checkout](https://github.com/hosseindehghanipour1998/Git-Tutorial#checkout) : goes to a specific commit in read-only mode without changing anything.
@@ -79,6 +88,22 @@ When We are in a directory and we want to start working with GIT, the first comm
 3.  `git reset <commit hash> --hard`
   *  Now there is no way to retain or revert the codes and files you had made after that specific commit.
 
+<hr/>
 
 ### Change Git Editor
 `git config --global core.editor "nano" `
+
+<hr/>
+
+### Edit a Commit
+You can change the most recent commit message using the `git commit --amend` command.
+
+In Git, the text of the commit message is part of the commit. Changing the commit message will change the commit ID--i.e., the SHA1 checksum that names the commit. Effectively, you are creating a new commit that replaces the old one.
+
+#### Commit has not been pushed online
+If the commit only exists in your local repository and has not been pushed to your GitHub Enterprise instance, you can amend the commit message with the `git commit --amend` command.
+
+On the command line, navigate to the repository that contains the commit you want to amend.
+Type `git commit --amend` and press Enter.
+In your text editor, edit the commit message and save the commit.
+The new commit and message will appear on your GitHub Enterprise instance the next time you push.
