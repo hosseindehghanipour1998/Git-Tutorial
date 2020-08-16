@@ -107,3 +107,4 @@ On the command line, navigate to the repository that contains the commit you wan
 Type `git commit --amend` and press Enter.
 In your text editor, edit the commit message and save the commit.
 The new commit and message will appear on your GitHub Enterprise instance the next time you push.
+[Reference](https://help.github.jp/enterprise/2.11/user/articles/changing-a-commit-message/)
