@@ -58,7 +58,9 @@ When We are in a directory and we want to start working with GIT, the first comm
 <hr/>
 
 ### Labeling
+`git tag` : see all the tags
 
+`git tag -a v2.0 -m "Version 2 added" ` : Add a Tag
 
 <hr/>
 
