@@ -121,3 +121,6 @@ The new commit and message will appear on your GitHub Enterprise instance the ne
 
 <hr/>
 
+### Aliasing
+
+`git config --global alias.<My alias name> "<my Full Command>"`
